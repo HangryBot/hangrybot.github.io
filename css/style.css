@@ -32,7 +32,10 @@ a{text-decoration:none;}
 .vertical-top{	vertical-align:top;}/* vertical align top */
 nav.vertical ul li{	display:block;}/* vertical menu */
 nav.horizontal ul li{display: inline-block;}/* horizontal menu */
-img{max-width:100%;}
+
+img{max-width:30%;}
+
+
 
 /*end reset*/
 
@@ -59,10 +62,15 @@ p{
     margin:0px;
     color: black;
 }
-ul{
-	margin:0;
+ul.punkte {
+	
+    margin:0;
 	padding:0;
+    list-style-type: disc;
 }
+
+
+
 
 .main {
     padding: 20px 0px 0px 0px;
