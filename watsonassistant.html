@@ -115,7 +115,16 @@
                     <br>
                     <br>   
                     <!-- chatbot-code --> 
-                    Hier kommt der Chatbot-Code! ;)
+                    CHATBOT HERE 
+                    <script src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js"></script>
+                    <script>
+                    window.loadWatsonAssistantChat({
+                        integrationID: "c05c3012-ef51-4d28-89a7-fe371c608c99", // The ID of this integration.
+                        region: "eu-gb" // The region your integration is hosted in.
+                    }).then(function(instance){
+                        instance.render();
+                    });
+                    </script>
                     <br>
                     <br>
                     <br>
